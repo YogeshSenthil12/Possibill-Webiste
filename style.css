@@ -1,0 +1,1571 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+}
+.commonHeading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    text-align: center;
+}
+.commonHeading h3{
+    margin-bottom: 97px;
+}
+.bannerSection{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.navList{
+    display: flex;
+    gap: 231px;
+    align-items: center;
+}
+.navList img{
+    display: none;
+}
+.navList ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.navList li{
+    cursor: pointer;
+}
+.navList li:hover{
+    color: #F7B103;
+}
+.navList button{
+    align-items: center;
+    padding: 8px 24px;
+    background: #F7B103;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    cursor: pointer;
+    border: none;
+}
+/* Nav section Completed desktop*/ 
+
+/*First Section Starts */
+.loremSection{
+    background: #FBF9F0;
+    padding: 186px 20px;
+}
+.headingDetails{
+    max-width: 988px;
+    margin: 0 auto;
+    text-align: center;
+}
+.dolorSection{
+    color: #F7B103;
+}
+.headingDetails h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 125%;
+    color: #101118;
+    margin-bottom: 24px;
+}
+.headingDetails p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #717484;
+    max-width: 625px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.headingDetails button{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 24px 15px;
+    cursor: pointer;
+    background: #F7B103;
+    border-radius: 6px;
+    border: none;
+}
+/* First section Completed desktop*/ 
+
+/*Second section Starts */
+.clientSection{
+    background: #FFFFFF;
+    padding: 50px 20px;
+    
+}
+.clientDetails{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.frameSec{
+    display: flex;
+    justify-content: space-between;
+} 
+.frameSec1 > .frameSec2 {
+    margin-bottom: 10px;
+}
+.clientDetails p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484;
+    text-align: center;
+    margin-bottom: 32px;
+}
+/* Second section Completed desktop*/ 
+
+/*Third section Starts */
+.posrestaurantSection{
+    background: #FFFFFF;
+    padding: 50px 20px 130px;
+}
+.posrestaurantSection p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484;
+    margin-bottom: 8px;
+}
+.commonHeading {
+    max-width: 654px;
+    margin: 0 auto; 
+}
+.menuManagement{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 48px;
+    justify-content: center;
+}
+.menuManagement:last-child{
+    margin-bottom: 0px;
+}
+.managementLogo{
+    max-width: 40px;
+}
+.managementLogo img{
+    width: 100%;
+}
+.menuManagement h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #BDBEC4;
+}
+.menuManagement h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #312F2E;
+    max-width: 390px;
+}
+.menuManagement p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #BDBEC4;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    text-align: left;
+    max-width: 390px;
+    margin: 0 auto;
+}
+.laptopLogo{
+    max-width: 688px;
+    margin: 0 auto;
+}
+.laptopLogo img{
+    width: 100%;
+}
+.featureSection{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Fourth section Starts */
+.buildingShop{
+    background: #FBF9F0;
+    padding: 100px 20px 136px;
+}
+.upcomingSoln{
+    max-width: 654px;
+    margin: 0 auto;
+}
+.upcomingSoln h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.upcomingSoln p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    text-align: center;
+    color: #312F2E;
+    margin-bottom: 94px;
+}
+.hardwareShops{
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    gap: 36.33px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.pharmacyStore img{
+    max-width: 64px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.pharmacyStore h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.pharmacyStore p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #717484;
+} 
+
+/*Fifth section Starts */
+.posFeatures{
+    background: #FFFFFF;
+    padding: 100px 20px 56px;
+}
+.industryFeatures{
+    max-width: 606px;
+    margin: 0 auto;
+}
+.industryFeatures p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.industryFeatures h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%; 
+    text-align: center;
+    color: #312F2E;
+    margin-bottom: 83px;
+} 
+.managementReports{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.logoDesign{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.designImage img{
+    background: #FFFBF2;
+    border-radius: 8px;
+    padding: 12px 13px;
+    width: 100%; 
+}
+.menumanagementSection{
+    background: #FFFFFF;
+    border: 0.5px solid #BDBEC4;
+    border-radius: 12px;
+    max-width: 368px;
+    padding: 20px 24px 16px;
+}
+.managementReports{
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+.menumanagementSection p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #717484;
+    max-width: 320px;
+}
+.menumanagementSection h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    color: #000000;
+    max-width: 256px;
+}
+.viewmoreDetails{
+    display: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #F7B103;
+    cursor: pointer;
+}
+.pricingSection{
+    padding: 50px 20px 100px;
+    background: linear-gradient(180deg, rgba(252, 239, 207, 0) 0%, #FCEFCF 100%);
+}
+.simplePrice p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #3F3D3D;
+    margin-bottom: 10px;
+}
+.simplePrice h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    text-align: center;
+    color: #312F2E;
+    margin-bottom: 73px;
+}
+.basicPrice{
+    padding: 32px 20px;
+    max-width: 360px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.priceDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.priceList{
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+.priceList:last-of-type{
+    margin-bottom: 0px;
+}
+.priceList p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #717484;
+    text-align: left;
+}
+.basicPrice h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #101118;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.basicPrice h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #717484;
+    margin-bottom: 32px;
+}
+.basicPrice .btnColor{
+    border: 1px solid #F7B103;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #F7B103;
+    padding: 15px 0px;
+    width: 296px;
+    background: #FFFFFF;
+    margin-top: 67px;
+}
+.basicPrice .colorBtn{
+    background: #F7B103;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    padding: 15px 0px;
+    width: 296px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 47px;
+}
+.basicPrice .contactBtn{
+    border: 1px solid #F7B103;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #F7B103;
+    padding: 15px 0px;
+    width: 296px;
+    background: #FFFFFF;
+    margin-top: 47px;
+}
+/*Sixth section finished */
+
+/*Seventh section Starts */
+.quickSolution{
+    background: #FFFFFF;
+    padding: 100px 20px 50px;
+}
+.frequentSolution p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #7A7A7A;
+    margin-bottom: 10px;
+}
+.frequentSolution h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    margin-bottom: 65px;
+    text-align: center;
+    color: #312F2E;
+}
+.fullframeSolution{
+    max-width: 984px;
+    margin: 0 auto;
+}
+.uparrowSection{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+}
+.uparrowSection h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    align-items: center;
+    color: #3F3D3D;
+    margin-bottom: 10px;
+}
+.frequentSection{
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 12px;
+    max-width: 984px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+.frequentSection p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    max-width: 737px;
+    color: #2F3146;
+}
+.contentSection{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+.contentSection:last-of-type{
+    margin-bottom: 0px;
+}
+.contentSection p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    align-items: center;
+    color: #717484;
+}
+/*Eight section Starts */
+.scheduleSection{
+    
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #FFFBED 0%, #FFFBED 100%);
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 50px auto 100px;
+    padding-left: 80px;
+}
+.startingSection h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    color: #3F3D3D;
+    margin-bottom: 16px;
+    padding-top: 80px;
+}
+.startingSection p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #717484;
+    max-width: 458px;
+    margin-bottom: 50px;
+}
+.startingSection button{
+    background: #F7B103;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    width: 199px;
+    padding: 18px 0px;
+}
+.macbookLogo{
+    align-self: flex-end;
+    padding-top: 56px;
+    max-width: 747px;
+} 
+.macbookLogo img{
+    width: 100%;
+}
+
+
+/*footer section Starts */
+.footerSec{
+    background: #151417;
+    color: #FFFFFF;
+}
+.requestDemo{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px 48px;
+    border-bottom: 1px solid #C0E0FF;
+    max-width: 1224px;
+    margin: 0 auto;
+    padding: 80px 16px;
+    gap: 10px;
+}
+.scheduleSec{
+    max-width: 520px;
+}
+.scheduleSec h3{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.scheduleSec p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 420px;
+    margin-bottom: 64px;
+}
+/* .contactSection{
+    margin: 64px 0px 24px 0px;
+} */
+.contactSec{
+    display: flex;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+.contactSec a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.callSection{
+    display: flex;
+    gap: 14px;
+}
+.callSection a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.personalDetails .fullName{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.personalDetailSection label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#fname{
+    display: flex;
+    flex-direction: column;
+    background: #272727;
+    border: 1px solid #414141;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AAAAAA;
+    padding: 16px 0px 16px 16px;
+    width: 280px;
+}
+.personalDetailSection{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+#message{
+    display: flex;
+    flex-direction: column;
+    background: #272727;
+    border: 1px solid #414141;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AAAAAA;
+    width: 100%;
+    padding: 16px 0px 64px 16px;
+}
+.personalDetailSec label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.requestButton Button{
+    background: #EF7E30;
+    border: 1px solid #EF7E30;
+    border-radius: 56px;
+    margin-top: 40px;
+    padding: 14px 54px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.footerBottom{
+    border-bottom: 1px solid #C0E0FF;
+    max-width: 1224px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 47px;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 16px;
+    gap: 10px;
+}
+.botsyncImage img{
+    cursor: pointer;
+}
+.botsyncImage p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D5D5D5;
+    max-width: 280px;
+    margin-top: 24px;
+}
+.socialmediaLogo{
+    cursor: pointer;
+    gap: 16px;
+    display: flex;
+    margin-top: 24px;
+    max-width: 40px;
+}
+.quickLink h2{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.directionSymbol{
+    max-width: 112px;
+}
+.quickLink li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+    color: #D4D4D4;
+    margin-top: 10px;
+}
+.quickLink li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #D4D4D4;
+}
+.contactDetails{
+    display: flex;
+    gap: 12px;
+    max-width: 181px;
+    margin-bottom: 17px;
+    cursor: pointer;
+}
+.contactDetail{
+    display: flex;
+    gap: 12px;
+    max-width: 245px;
+    margin-bottom: 17px;
+    cursor: pointer;
+}
+.locationDetails a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D4D4D4;
+    margin-bottom: 4px;
+}
+.locationDetails .Addr{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D4D4D4;
+    margin-bottom: 4px;
+
+}
+.locationDetails .directionFooter{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #EF7E30;
+}
+.footerDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.footerDetails p{
+    max-width: 220px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+.footerDetails h4{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #D4D4D4;
+    max-width: 70px;
+}
+.policies{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1224px;
+    padding: 24px 0px 32px;
+    padding: 24px 16px;
+    gap: 10px;
+}
+.copyRights h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #D4D4D4;
+}
+.policyDetails{
+    display: flex;
+    gap: 12px;
+}
+.policyDetails p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #D4D4D4;
+} 
+
+.footerBottom > .footerContainer{
+    display: flex;
+    justify-content: space-between;
+} 
+/*responsive section starts */
+
+/*responsive for Nav Section */
+@media only screen and (max-width:1400px){
+    
+.basicPrice .btnColor{
+        margin: 0px 20px 0px;
+    }
+    .basicPrice .colorBtn{
+        margin: 0px 20px 0px;
+    }
+    .basicPrice .contactBtn{
+        margin: 0px 20px 0px;
+    }
+}
+@media only screen and (max-width:1200px){
+   .navList img{
+        display: block;
+    }
+    .navList ul {
+        display: none;
+    }
+    .navList button{
+        display: none;
+    }
+    .bannerSection{
+        padding: 16px 20px;
+    }
+    .featureSection{
+      flex-direction: column;
+    }
+    .laptopLogo{
+        order: -1;
+        margin-bottom: 48px;
+    }
+    .pharmacyStore img{
+        margin-bottom: 20px;
+    }
+    .pharmacyStore h2{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 150%;
+        color: #000000;
+    }
+    .upcomingSoln h2{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #717484;
+        text-align: center
+    }
+    .upcomingSoln p{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 137%;
+        text-align: center;
+        color: #312F2E;
+    }
+    .pharmacyStore p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #717484;
+        text-align: center;
+        margin-bottom: 40px;
+        max-width: 438px;
+    }
+    .scheduleSection{
+        flex-direction: column;
+        margin:0px 23px;
+    }
+    .macbookLogo img{
+        width: 100%;
+    }
+    .startingSection {
+        align-items: center;
+    }
+    .industryFeatures h2{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 136%;
+        text-align: center;
+    }
+    .priceDetails{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+} 
+@media only screen and (max-width:992px){
+    .loremSection{
+        padding: 86px 20px;
+    }
+    .headingDetails h1{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 135%;
+        color: #101118;
+        margin-bottom: 24px;
+    }
+    .headingDetails p{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 153%;
+        color: #717484;
+        text-align: center;
+    }
+    .personalDetailSection{
+        flex-direction: column;
+    }
+    .upcomingSoln p{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #312F2E;
+        margin-bottom: 48px;
+    }
+
+    .posFeatures{
+        padding: 64px 20px 32px;
+    }
+
+    .requestDemo{
+        flex-wrap: wrap;
+    }
+    .footerBottom{
+        flex-wrap: wrap ;
+    }
+    .basicPrice .btnColor{
+        margin: 30px 0px 0px;
+    }
+    .basicPrice .colorBtn{
+        margin: 30px 0px 0px;
+    }
+    .basicPrice .contactBtn{
+        margin: 30px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .menuManagement p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160%;
+        color: #BDBEC4;
+        text-align: left;
+        max-width: 320px;
+    }
+    .menuManagement h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        color: #BDBEC4;
+    }
+    .menuManagement h3{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        color: #312F2E;
+    }
+    .loremSection{
+        padding: 86px 20px;
+    }.clientSection{
+        padding: 32px 10px 8px;
+    }
+    .frameSec .frameSec4{
+        display: none;
+    }
+    .frameSec .frameSec5{
+        display: none;
+    }
+    .frameSec{
+        flex-direction: column;
+        max-width: 133px;
+        margin: 0 auto;
+        row-gap: 16px;
+        margin-bottom: 8px;
+    }
+
+    .headingDetails h1{
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 135%;
+        color: #101118;
+        margin-bottom: 24px;
+    }
+    .headingDetails p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 153%;
+        color: #717484;
+        text-align: center;
+    }
+    .dolorSec{
+        color:#F7B103;
+    }
+    .dolorSection{
+        color: black;
+    }
+    .commonHeading p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #717484;
+    }
+    .buildingShop{
+        padding: 64px 20px 64px;
+    }
+    .pharmacyStore h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000000;
+    }
+    .upcomingSoln p{
+        margin-bottom: 48px;
+    }
+    .pharmacyStore{
+        margin-bottom: 40px;
+    }
+    .pharmacyStore p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        color: #717484;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .pharmacyStore:last-child{
+        margin-bottom: 0px
+    }
+    .hardwareShops {
+        gap: 0px;
+    }
+    .posFeatures{
+        padding: 64px 20px 32px;
+    }
+    .personalDetailSection{
+        flex-direction: column ;
+        gap: 24px;
+    }
+    .menumanagementSection{
+        margin-bottom: 16px;
+    }
+    .menumanagementSection:nth-last-child(-n+8){
+       display: none;
+    }
+    .viewmoreDetails{
+        display: block;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #F7B103;
+        cursor: pointer;
+    }
+    .callSection{
+        margin-bottom: 56px;
+    }
+    .managementReports{
+        gap: 0px;
+    }
+    .pricingSection{
+        padding: 32px 20px 64px;
+    }
+    .simplePrice p{
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 160%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #717484;
+    }
+    .simplePrice h2{
+        max-width: 294px;
+         margin: 0 auto;
+         font-weight: 700;
+         font-size: 29px;
+         line-height: 140%;
+         text-align: center;
+         color: #312F2E;
+    }
+    .startingSection{
+        padding: 0px;
+    }
+    .startingSection h2{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 135%;
+        color: #3F3D3D;
+        margin-bottom: 16px;
+    }
+    .startingSection p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #717484;
+        max-width: 458px;
+        margin-bottom: 50px;
+    }
+    .startingSection button{
+        background: #F7B103;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        width: 199px;
+        padding: 15px 0px;
+    }
+
+}
+@media only screen and (max-width:576px){
+    .loremSection{
+        padding:86px 20px;
+    }
+    .headingDetails h1{
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 140%;
+        text-align: center;
+        color: #101118;
+    }
+    .headingDetails p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        color: #717484;
+    }
+    .headingDetails button{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 11px 20px;
+        background: #F7B103;
+        border-radius: 6px;
+    }
+    .industryFeatures h2{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 138%;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+    .posFeatures{
+        padding: 64px 20px 32px;
+    }
+    .scheduleSection{
+        margin: 32px 20px 64px;
+        padding: 0px;
+    }
+    .startingSection{
+        text-align: center;
+    
+    }
+    .startingSection h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: #312F2E;
+        padding-top: 51px;
+    }
+    .startingSection p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        max-width: 274px;
+        margin: 0 auto 32px;
+        color: #717484;
+    }
+    .startingSection button{
+        background: #F7B103;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 100%;
+        color: #FFFFFF;
+        border: none;
+        width: 144px;
+        padding: 11px 0px;
+        margin-bottom: 40px;
+    }
+    .macbookLogo{
+        padding: 0px;
+    }
+    .commonHeading h3{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #312F2E;
+        margin-bottom: 51px;
+    }
+   
+    .menuManagement{
+        margin-bottom: 40px;
+    }
+    .menuManagement h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        color: #312F2E;
+    }
+    .posrestaurantSection{
+        padding: 64px 20px;
+    }
+    .policies{
+        flex-direction: column;
+    }
+    .quickSolution{
+        background: #FFFFFF;
+        padding: 64px 20px 32px;
+    }
+    .frequentSolution p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #717484;
+        margin-bottom: 8px;
+    }
+    .frequentSolution h2{
+        max-width: 293px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%; 
+        text-align: center;
+        color: #312F2E;
+    }
+    .fullframeSolution{
+        max-width: 320px;
+    }
+    .uparrowSection{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+    }
+    .uparrowSection h2{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 160%;
+        align-items: center;
+        color: #101118;
+    }
+    .frequentSection{
+        background: #FFFFFF;
+        border: 1px solid #DEDEDE;
+        border-radius: 12px;
+        max-width: 984px;
+        padding: 24px 16px;
+        margin-bottom: 16px;
+    }
+    .frequentSection p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160%;
+        max-width: 268px;
+        color: #63605F;
+    }
+    .contentSection{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 24px 16px;
+        background: #FFFFFF;
+        border: 1px solid #DEDEDE;
+        border-radius: 12px;
+        margin-bottom: 16px;
+    }
+    .contentSection:last-of-type{
+        margin-bottom: 0px;
+    }
+    .contentSection p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160%;
+        align-items: center;
+        max-width: 238px;
+        color: #717484;
+    }
+    #fname{
+        display: flex;
+        flex-direction: column;
+        background: #272727;
+        border: 1px solid #414141;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #AAAAAA;
+        padding: 16px 0px 16px 16px;
+        width: 100%;
+    }
+} 
+@media only screen and (max-width:320px){
+    .loremSection{
+        padding: 86px 20px;
+    }
+    .headingDetails h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 140%;
+        text-align: center;
+        color: #101118;
+    }
+    .headingDetails p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        text-align: center;
+        color: #717484;
+    }
+    .headingDetails button{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 11px 20px;
+        background: #F7B103;
+        border-radius: 6px;
+    }
+    .menumanagingSection h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+        color: #312F2E;    
+    }
+    .menumanagingSection p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;   
+        color: #626262;
+        max-width: 450px;
+        padding-left: 56px;
+    }
+    .industryFeatures h2 {
+        max-width: 320px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+    }
+    .menumanagementSection p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160%;
+        color: #717484;
+        max-width: 280px;
+    }
+    .menumanagementSection h2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+    }
+    .simplePrice p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #3F3D3D;
+    }
+    .simplePrice h2{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #312F2E;
+        margin-bottom: 51px;
+    }
+    .pricingSection{
+        background: linear-gradient(180deg, rgba(252, 239, 207, 0) 0%, #FCEFCF 100%);
+    }
+    .basicPrice{
+        max-width: 320px;
+        background: #FFFFFF;
+    }
+    .basicPrice h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        color: #101118;
+        margin-bottom: 6px;
+    }
+    .basicPrice h4{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        text-align: center;
+        color: #312F2E;
+        margin-bottom: 24px;
+    }
+    .priceList{
+        margin-bottom: 16px;
+    }
+    .priceList:last-of-type {
+        margin-bottom: 0px;
+    }
+    .priceList p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160%;
+        color: #717484;
+    }
+    .basicPrice .btnColor{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        padding: 11px 0px;
+        width: 248px;
+        text-align: center;
+        color: #F7B103;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .basicPrice .colorBtn{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        background: #F7B103;
+        border-radius: 6px;
+        padding: 11px 0px;
+        width: 248px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .basicPrice .contactBtn{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        padding: 11px 0px;
+        width: 248px;
+        color: #F7B103;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .scheduleSection{
+        margin: 32px 20px 64px;
+       
+    }
+    .startingSection{
+        text-align: center;
+        
+    }
+    .startingSection h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: #312F2E;
+        margin-bottom: 5px;
+    }
+    .startingSection p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        max-width: 274px;
+        margin: 0 23px 32px;
+        color: #717484;
+    }
+    .startingSection button{
+        background: #F7B103;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        border: none;
+        width: 144px;
+        padding: 11px 0px;
+        margin-bottom: 40px;
+    }
+    .macbookLogo{
+        padding: 0px;
+    }
+    .requestDemo{
+        padding: 80px 16px 104px;
+    }
+    .scheduleSec h3{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 42px;
+        color: #FFFFFF;
+        max-width: 233px;
+        margin-bottom: 8px;
+    }
+    .scheduleSec p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        max-width: 328px;
+        margin-bottom: 32px;
+    }
+    .contactSec{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+    .callSection{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 56px;
+    }
+    .personalDetailSection label{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    #fname{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #AAAAAA;
+        padding: 16px 0px 16px 16px;
+    }
+} 
+
